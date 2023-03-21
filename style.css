@@ -1,0 +1,147 @@
+
+*
+{
+    font-family: 'Cormorant Garamond';
+}
+body
+{
+height: 120vh;
+padding: 0;
+margin: 0;
+background-color: black;
+letter-spacing: 1.5px;
+}
+.main
+{
+width: 700px;
+height: 790px;
+background-color: #FFFCF6;
+transform: translate(-50%,-50%);
+left: 50%;
+top:55%;
+position: absolute;
+}
+h3
+{
+    font-family: 'Bodoni Moda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+ul
+{
+font-family:'Courier New', Courier, monospace;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 35px;
+}
+a{
+    text-decoration: none;
+    color: #EBDACC;
+    font-size: 10.5px;
+}
+.left
+{
+    position: absolute;
+    width: 310px;
+    height: 604px;
+    left: 0px;
+    top: 150px;
+    box-sizing: border-box;
+    background: #59371C;
+   
+
+}
+.main_photo img
+{
+box-sizing: border-box;
+position: absolute;
+width: 310px;
+height: 230px;
+transform: translateY(-50%);
+}
+.box-left
+{
+    margin-top: 120px;
+    margin-left: 6px;
+    color: #EBDACC;
+}
+.box-left  ul
+{
+    padding-left: 10px;
+}
+.skills_photo-1 img
+{
+width: 65px;
+height: 43px;
+position: absolute;
+box-sizing: border-box;
+right: calc(50% - 65px/2 - 80.5px);
+top: calc(50% - 15px/2 + 169.5px);
+}
+.skills_photo-2 img
+{
+    width: 65px;
+    height: 43px;
+    position: absolute;
+    box-sizing: border-box;
+    right: calc(50% - 65px/2 - 80.5px);
+    top: calc(50% - 15px/2 + 203.5px);   
+}
+
+.right
+{
+    font-size: 10px;
+   float: right;
+   width: 380px;
+}
+
+.name-div h1
+{
+    position: absolute;
+   /* width: 309px;
+    height: 70px;*/
+    left: 330px;
+    top: 30px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight:600;
+    font-size: 50px;
+    line-height: 65px;
+    color: #59371C;
+}
+.name-div h2
+{
+    position: absolute;
+ /*   width: 217px;
+    height: 29px;*/
+    left: 338px;
+    top: 113px;
+    
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    
+    color: #59371C;
+}
+.box-right
+{
+    top:170px;
+    position: absolute;
+    color:#59371C;
+}
+.box-right ul 
+{
+    line-height: 1.9;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+.box-right h3
+{
+    line-height: 1;
+    margin:10px 0 3px 0;
+    padding: 0;
+}
